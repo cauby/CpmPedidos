@@ -1,0 +1,15 @@
+   Comando de Migration Visual Studio 2022
+
+Add-Migration "Nome da Migracao" -Project "Nome do Projeto" -StartupProject "Nome do projeto principal" -Context "nome da classe de contexto"
+
+Update-Database -Context "Nome do contexto" -Project "Nome do projeto do contexto" -StartupProject "Nome do projeto principal"
+
+
+Comando do Git
+
+git config --global --list // mostra a configuração do git
+
+git config --global user.name "seu nome"    // cadastra nome no git
+git config --global user.email "seu email"  // cadastra email no git
+
+dotnet new gitignore // cria um arquivo gitignori em um projeto dotnet
